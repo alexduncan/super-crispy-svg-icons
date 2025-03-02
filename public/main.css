@@ -1,0 +1,39 @@
+body {
+	font-family: sans-serif;
+	padding: 1rem;
+}
+
+h1,
+h2 {
+	margin: 2rem 0 0.5rem 0;
+}
+
+#iconButtons {
+	display: flex;
+	gap: 0.5rem;
+}
+
+button {
+	all: unset;
+	background-color: #f5f5f5;
+	color: #555;
+	padding: 0.5rem 1.5rem 0.5rem 0.75rem;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	border-radius: 0.25rem;
+	transition:
+		color 500ms ease,
+		background-color 500ms ease;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #5f2eea;
+	background-color: #f6edff;
+}
+
+.icon {
+	transition: color 500ms ease;
+	margin-right: 0.5rem;
+}

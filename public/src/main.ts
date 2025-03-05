@@ -30,7 +30,7 @@ const iconSizes = document.getElementById("iconSizes");
 	}
 });
 
-const iconColors = document.getElementById("iconSizes");
+const iconColors = document.getElementById("iconColors");
 
 ["red", "blue", "green"].forEach((color: string) => {
 	const icon = renderIcon("apply", "m");
